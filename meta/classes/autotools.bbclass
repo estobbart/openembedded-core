@@ -260,6 +260,7 @@ python autotools_copy_aclocals () {
 autotools_copy_aclocals[vardepsexclude] += "MACHINE SDK_ARCH BUILD_ARCH SDK_OS BB_TASKDEPDATA"
 
 autotools_do_configure() {
+
 	# WARNING: gross hack follows:
 	# An autotools built package generally needs these scripts, however only
 	# automake or libtoolize actually install the current versions of them.

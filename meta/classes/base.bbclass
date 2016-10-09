@@ -56,7 +56,7 @@ oe_runmake_call() {
 }
 
 oe_runmake() {
-	oe_runmake_call "$@" || die "oe_runmake failed"
+	oe_runmake_call "$@" || die "oe_runmake failed "
 }
 
 
